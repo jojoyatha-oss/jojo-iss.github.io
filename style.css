@@ -1,0 +1,272 @@
+/* =====================
+   🎨 VARIABLES THÈME
+===================== */
+
+/* DARK MODE (par défaut) */
+:root {
+  --bg: #020617;
+  --bg-secondary: #0f172a;
+  --card: #1e293b;
+
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+
+  --border: rgba(255,255,255,0.08);
+}
+
+/* LIGHT MODE */
+.light-mode {
+  --bg: #f8fafc;
+  --bg-secondary: #ffffff;
+  --card: #e2e8f0;
+
+  --text: #0f172a;
+  --text-muted: #475569;
+
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+
+  --border: rgba(0,0,0,0.08);
+}
+
+
+
+
+
+
+
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+/* NAVBAR */
+.navbar {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--text);
+}
+
+/* CAROUSEL */
+.carousel-caption h1 {
+    font-weight: bold;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.carousel-caption p {
+    background: var(--bg);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* SECTIONS */
+h2 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* CARDS (COMPETENCES) */
+.col-lg-4 {
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.col-lg-4:hover {
+    transform: translateY(-5px);
+}
+
+/* BOUTONS BOOTSTRAP */
+.btn {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: var(--bg);
+    border: none;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+}
+
+.btn-secondary {
+    background: var(--bg);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: var(--bg);
+}
+
+/* FEATURETTES */
+.featurette-heading {
+    font-weight: bold;
+}
+
+.featurette img {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* EDUCATION */
+.form {
+    width: 100%;
+    background: var(--bg);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    color: var(--text);
+    margin-bottom: 10px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.form:hover {
+     background: var(--bg);
+    transform: translateY(-2px);
+}
+
+/* FORMULAIRE */
+.form-perso input,
+.form-perso textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.form-perso input:focus,
+.form-perso textarea:focus {
+    outline: none;
+    border: 2px solid #38bdf8;
+}
+
+/* BOUTON FORMULAIRE (amélioré 🔥) */
+.form-perso button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: var(--text);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-perso button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+}
+
+.form-perso button:active {
+    transform: scale(0.97);
+}
+
+/* FOOTER */
+footer {
+    color: #94a3b8;
+}
+
+footer a {
+    color: #38bdf8;
+}
+
+/* Empêche le carousel de bouger */
+.carousel-item {
+    height: 100vh; /* hauteur fixe écran */
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* garde les proportions */
+}
+
+.footer {
+  background: #0f172a;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-phone {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #38bdf8;
+}
+
+.back-to-top {
+  display: inline-block;
+  margin-top: 10px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--primary);
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}

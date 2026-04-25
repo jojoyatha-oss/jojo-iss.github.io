@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Josué Numbi Yatha</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <style>
+  
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comp">Competences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cap">À propos</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#exp">Experiences</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#cont">Contact</a>
+            </li>
+          </ul>
+          
+        
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/IMG_1615.JPG" width="100%" height="100%" alt="" class="img2">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              
+
+              <h1>Bonjour, je suis Josué Numbi Yatha </h1>
+              <p>Programmeur diplomé en Information Technologie </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/IMG_2045.jpg" width="100%" height="100%" alt="">
+
+          <div class="container">
+            
+            <div class="carousel-caption">
+              <h1>Développeur et programmeur de logiciel</h1>
+              <p> Expérimenté dans le
+                développement backend. Spécialisé dans la conception des
+                systèmes fiables, performants et évolutifs, principalement avec
+                Java, JavaScript, PHP et SQL. Passionné par la qualité du code et
+                  l’innovation technologique. Bilingue en français et en anglais,
+                  avec une bonne maîtrise du lingala. Co-propriétaire d’une
+                startup technologique spécialisée dans les solutions numériques
+                modernes.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          
+         <img src="img/2de73936-4029-41ba-bb05-3df0574921b5.JPG" width="100%" height="100%" alt="" class="img2">
+
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Doté d’un esprit Ouvert,</h1>
+              <p>je suis animé par une forte volonté d’apprentissage continu
+                 et motivé à relever tous les défis,
+                  quels que soient leur taille ou leurs enjeux..</p>
+              <p><a class="btn btn-lg btn-primary" href="#cont" role="button">Me contacter</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a><a name="comp"></a>
+    </div>
+    <br><br><br><br><br><br><br>
+
+       <center><b><h2> Competences techniques </h2></b></center>
+    <br><br><br>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/IMG_5695.jpg" width="40%" height="20%"/>
+           <br> 
+
+          <h2>PHP</h2>
+          <p><img src="img/IMG_5700.jpg" width="50%" height="50%" alt=""></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Details </a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/IMG_5696.jpg" alt="" width="40%" height="20%">
+          
+
+          <h2>JavaScript and Java</h2>
+          <p><img src="img/IMG_5699.jpg" width="50%" height="50%" alt=""></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Details </a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/IMG_5697.jpg" alt="" width="40%" height="20%">
+
+          <h2>SQL</h2>
+          <p><img src="img/IMG_5700.jpg" width="50%" height="50%" alt=""></p>
+          
+
+          
+
+          <p><a class="btn btn-secondary" href="#" role="button">Details</a></p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row --> <br> <a name="cap"></a>
+
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">À propos de moi. <span class="text-muted">Qui est Josué Numbi Yatha?</span></h2>
+          
+          <p class="lead">Je suis YATHA NUMBI JOSUÉ, développeur et designer, 
+            alliant expertise technique et créativité pour concevoir des solutions numériques
+             à la fois performantes et innovantes. Actuellement cofondateur de la start-up ROBUST CODE 
+             en République Démocratique du Congo, je conçois et développe des plateformes web évolutives,
+              en accordant une attention particulière à l’expérience utilisateur ainsi qu’à l’optimisation
+               des performances côté backend. <br><br>
+
+            Dans le cadre d’un projet réalisé en équipe,
+             j’ai participé au développement complet d’une application 
+             visant à simplifier et accélérer la délivrance des documents 
+             administratifs tels que la carte d’identité, l’attestation de naissance, le passeport etc.
+              Ce projet impliquait à la fois des compétences en développement backend et frontend. <br><br>
+              Côté frontend, nous avons conçu une interface utilisateur intuitive permettant aux usagers 
+              de soumettre leurs demandes en ligne et de suivre l’évolution de leurs dossiers. Côté backend, 
+              nous avons mis en place une architecture robuste assurant la gestion sécurisée des données, 
+              le traitement des requêtes ainsi que la communication avec les bases de données. <br>
+               Ce travail collaboratif m’a permis de renforcer mes compétences techniques,
+                mais aussi de développer mon sens de l’organisation, de la communication et du travail en équipe.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/bc61729f-208f-4e9b-be43-e74515c0aeac.JPG" width="500" height="500" alt="">
+
+          
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            
+          </svg>
+       </div>
+      </div>
+          
+ <a name="exp"></a>
+        
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Dans le cadre de mes initiatives académiques, <span class="text-muted">j’ai conçu et réalisé
+             un projet visant à faciliter 
+             l’accès des étudiants aux stages académiques.</span></h2>
+          <p class="lead">Ce projet consistait à collecter et centraliser
+             les coordonnées des entreprises ainsi que celles des universités,
+              afin de créer un lien efficace entre les différentes parties prenantes. 
+              L’objectif était de simplifier les démarches des étudiants, 
+              d’améliorer la mise en relation avec les structures d’accueil et
+               de rendre le processus de recherche de stage plus accessible et structuré.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/7d0273e2-2684-45f1-8ba3-0d10c8c081a9.JPG" width="500" height="500" alt="">
+
+        </div>
+      </div>
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br>
+
+      <div>
+        <h2><center><p>EDUCATION</p></center></h2><br><br>
+        <div>
+          <button class="form"></i><p><i class="fa-solid fa-graduation-cap"></i> <b>Licence en Technologies de l'Information</b>
+            – Eastern Mediterranean University, Cyprus (2020–2024)</p></button>
+        </div><br>
+
+        <button class="form"></i><p><i class="fa-solid fa-graduation-cap"></i> <b>Diplôme d'études secondaires en Math-physique</b>
+            – CS.Les Mickeys </p></button><br><br>
+
+            <button class="form"></i><p><i class="fa-solid fa-graduation-cap"></i> <b>Certica de fin d'études primaire</b>
+            – Mgr Bokeleale Lisanga </p></button>
+        </div>
+
+       
+       </div>
+
+      
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <a name="cont"></a>
+      <hr class="featurette-divider"><br>
+      <center><h2>Contactez-moi et Collaborons.</h2></center>
+
+   <form id="monForm" action="traitement.php" method="POST" style="width: 60%; margin: auto;" class="container form-perso">
+
+    <label>Noms :</label><br>
+    <input type="text" name="noms" required><br>
+    <p id="text1"></p>
+
+    <label>Email :</label><br>
+    <input type="email" name="mail" required><br>
+    <p id="text2"></p>
+    <label>Sujet :</label><br>
+    <input type="text" name="sujet" required><br>
+    <p id="text3"></p>
+    <label>Message :</label><br>
+    <textarea name="message" rows="5" required></textarea><br><br>
+    <p id="text4"></p>
+
+    <button type="submit">Envoyer</button>
+
+</form>
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Texte -->
+    <p class="footer-text">
+      © 2026 JOSUÉ YATHA- Tous droits réservés
+    </p>
+
+    <!-- Téléphone -->
+    <p class="footer-phone">
+      📞 +243 838417866
+    </p>
+
+    <!-- Réseaux sociaux -->
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://wa.me/243838417866" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top">↑ Haut</a>
+
+  </div>
+</footer>
+  </main>
+<button id="theme-toggle">🌙</button>
+<script src="script.js"></script>
+<script>
+document.getElementById("monForm").addEventListener("submit", validerFormulaire);
+</script>
+<script>
+  const toggleBtn = document.getElementById("theme-toggle");
+
+  // Charger le thème sauvegardé
+  if (localStorage.getItem("theme") === "light") {
+    document.body.classList.add("light-mode");
+    toggleBtn.textContent = "☀️";
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+
+    if (document.body.classList.contains("light-mode")) {
+      localStorage.setItem("theme", "light");
+      toggleBtn.textContent = "☀️";
+    } else {
+      localStorage.setItem("theme", "dark");
+      toggleBtn.textContent = "🌙";
+    }
+  });
+</script>
+</body>
+
+</html>
